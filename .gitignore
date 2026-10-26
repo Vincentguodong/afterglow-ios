@@ -1,0 +1,50 @@
+# Build products and local reports
+build/
+DerivedData/
+*.app/
+*.dSYM/
+*.dSYM.zip
+*.xcarchive/
+*.ipa
+*.log
+*.xcresult/
+Docs/native-static-checks.json
+
+# Xcode user state
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Signing material and secrets
+Signing.xcconfig
+*.p12
+*.pfx
+*.p8
+*.mobileprovision
+*.provisionprofile
+*.cer
+*.cert
+*.pem
+*.key
+*.keychain
+*.keychain-db
+.env
+.env.*
+!.env.example
+credentials.json
+secrets.json
+ExportOptions.plist
+
+# Editor and operating system files
+.DS_Store
+.AppleDouble
+._*
+.idea/
+.vscode/
+*.swp
+*.swo
+__pycache__/
+*.py[cod]
+.venv/
+venv/

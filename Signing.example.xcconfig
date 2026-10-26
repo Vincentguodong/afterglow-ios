@@ -1,0 +1,4 @@
+// Copy to Signing.xcconfig, then use the values in Xcode Signing & Capabilities.
+// This file is only an example; it is deliberately not included by the project.
+DEVELOPMENT_TEAM = YOUR_APPLE_TEAM_ID
+PRODUCT_BUNDLE_IDENTIFIER = com.yourdomain.afterglow
